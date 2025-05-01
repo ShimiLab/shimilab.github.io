@@ -1,0 +1,80 @@
+[
+  {
+    "objectID": "index.html#Research",
+    "href": "index.html#Research",
+    "title": "Main",
+    "section": "Research",
+    "text": "研究分野\nResearch area細胞核の構造と機能\n蛍光顕微鏡\n細胞生物学\nNuclear structure and functions\nFluorescence Microscopy\nCell Biology\nresearchmap\nGoogle Scholar\nA STED superresolution image of nuclear surface view showing the nuclear lamin A/C meshwork (green) and the NPCs (NUP96-Halo, magenta).\n(Abberior STED microscope, UPlanSApo 100x/1.4 NA Oil lens, anti-LA/C mAb:clone#3A6-4C11, JF646-HaloTag Ligand in U2OS-CRISPR-Nup96-Halo cells)\n国際学術誌Nucleusの新しい表紙画像に選ばれました。\nOur image is chosen for the new cover of Nucleus (eISSN: 1949-1042)."
+  },
+  {
+    "objectID": "index.html#About",
+    "href": "index.html#About",
+    "title": "Main",
+    "section": "About",
+    "text": "ラボについて\nAbout the lab\n2005年－2006年\n情報通信研究機構未来ICT研究所生物情報グループ（平岡泰室長）原口徳子チームで、細胞分裂期における核膜の再構築について研究。\n2006年より12年間渡米し、Robert Goldmanラボで、核ラミナを構成する核ラミンの分子構造、分子動態や機能に関する研究に従事。\n2018年、東京工業大学World Research Hub Initiative (WRHI)特任准教授として帰国。木村宏教授のサポートの下で、PIとして志見ラボ始動。\ncryo-ET、コンピュータビジョンを組み合わせた3D-SIMを用いて、動物細胞の核膜における核ラミンファイバーと核膜孔複合体の構造的繋がりを定量解析することに成功し、これらの結合に必要なタンパク質を発見。\n2020年より、研究員の河野洋平が加入。間期の細胞内で破損した核ラミナを修復するメカニズムを解明。\n2023年より、金沢大学ナノ生命科学研究所に特任准教授として赴任。引き続き核ラミナの構造と機能に関する研究に、新たにナノ内視鏡AFM技術を組み合わせることによって、特定の核膜領域における核ラミナ－クロマチン間相互作用の計測に取り組んでいる。\nOur current research focus is to study nuclear lamina functions under mechanical stress for a better understanding of the structure and functions of the lamin and NPCs (nuclear pore complexes).\n
+Our long-term research goal is to identify the essential nuclear protein units for the formation of LADs (Lamina-associated domains) and NAR (Nucleoporin-associated region).\nWe hope that our future findings will shed light on the physiological properties of and pathological changes in laminopathies.\nOur lab now welcomes students interested in nuclear envelope and mechanobiology!"
+  },
+  {
+    "objectID": "members.html#Shimi",
+    "href": "members.html#Shimi",
+    "title": "Members",
+    "section": "Shimi",
+    "text": "志見 剛\nTakeshi Shimi\n金沢大学ナノ生命科学研究所\nNanoLSI\nKanazawa University\n特任准教授\nAssociated Proffessor\nresearchmap\nGoogle Scholar\nEmail: t-shimi[at]staff.kanazawa-u.ac.jp\n核膜\nラミナ / ラミンの構造\n核膜のダイナミクスおよび機能\nNuclear envelope, Structure of lamina/lamins, Dynamics and functions of the nuclear envelope\n好奇心という地図を頼りに、細胞核の構造と機能を探っています。\nMessage on YouTube (from Tokyo Tech, Sep. 2021)"
+  },
+  {
+    "objectID": "members.html#Kono",
+    "href": "members.html#Kono",
+    "title": "Members",
+    "section": "Kono",
+    "text": "河野 洋平\nYohei Kono\n金沢大学ナノ生命科学研究所\nNanoLSI\nKanazawa University\n研究員\nPostdoc\nresearchmap\nGoogle Scholar\nEmail: y-kono[at]staff.kanazawa-u.ac.jp\nX(Twitter)\n@Yo_Hey_Kono\n再生医療学\n遺伝子医療学\n細胞生物学\n分子生物学\nRegenerative Therapeutics\nMolecular and Genetic Medicine\nCell Biology\nMolecular Biology\n趣味は旅行、ドライブ、野球、ゴルフ、漫画、アニメ、映画、ラジオ、神社巡り、鉄道、スノボ、乗馬、フル免許取得、etc.\nI have an ambition for the translational research between regenerative medicine and basic science."
+  },
+  {
+    "objectID": "members.html#Kono",
+    "href": "members.html#Kono",
+    "title": "Members",
+    "section": "Kono",
+    "text": "Guest member\n川瀬 雅貴\nMasaki Kawase\n理化学研究所眞貝細胞記憶研究室\nShinkai Lab for Cellular Memory, RIKEN\n博士研究員\nPostdoctoral Fellow\nresearchmap\nクロマチン\n生殖細胞\nレトロトランスポゾン\nエピジェネティクス\nChromatin\nGerm cell\nRetrotransposon\nEpigenetics"
+  },
+  {
+    "objectID": "works.html#Papers",
+    "href": "works.html#Papers",
+    "title": "Works",
+    "section": "Papers",
+    "text": "主要論文\nFeatured Papers\nProbing nanomechanics by direct indentation using Nanoendoscopy-AFM reveals the nuclear elasticity transition in cancer cells, bioRxiv, Dec 2024\nRoles of the lamin A-specific tail region in the localization to sites of nuclear envelope rupture, PNAS Nexus, Nov 2024 \nCrosstalk between mitotic reassembly and repair of the nuclear envelope, Nucleus, May 2024\nDefective nuclear envelope repair in laminopathies, Journal of Japanese Biochemical Society, Feb 2024\nEpigenetic plasticity safeguards heterochromatin configuration in mammals, Nucleic Acids Research, Dec 2023\nNucleoplasmic lamin C rapidly accumulates at sites of nuclear envelope rupture with BAF and cGAS, Journal of Cell Biology, Oct 2022 \nComputational analyses reveal spatial relationships between nuclear pore complexes and specific lamins, Journal of Cell Biology, Feb 2021\nA mosaic of old and young nucleoporins, Journal of Cell Biology, Jan 2019\nNuclear lamins provide a structural framework that anchors nuclear pore complexes, Molecular Biology of the Cell, Dec 2018\nThe nuclear lamins are major determinants of nuclear architecture, The FASEB Journal, Apr 2017\nThe molecular architecture of lamins in somatic cells, Nature, Mar 2017\nAdaptive Multiple Orientation Analysis for the Segmentation of Intermediate Filament Networks, Molecular Biology of the Cell, Jan 2017\nAnalyses of the Dynamic Properties of Nuclear Lamins by Fluorescence Recovery After Photobleaching (FRAP) and Fluorescence Correlation Spectroscopy (FCS), The Nuclear Envelope, May 2016\nAutophagy mediates degradation of nuclear lamina, Nature, Nov 2015\nStructural Organization of Nuclear Lamins A, C, B1 and B2 Revealed by Super-Resolution Microscopy, Molecular Biology of the Cell, Aug 2015\nGene-rich chromosomal regions are preferentially localized in the lamin B deficient nuclear blebs of atypical progeria cells, Nucleus, Mar 2015\nInterphase phosphorylation of lamin A, Journal of Cell Science, Apr 2014\nNuclear Lamins and Oxidative Stress in Cell Proliferation and Longevity, Cancer Biology and the Nuclear Envelope, Feb 2014\nDisruption of lamin B1 and lamin B2 processing and localization by farnesyltransferase inhibitors, Nucleus, Mar 2013\nThe Lamins are Major Determinants of Nuclear Architecture, The FASEB Journal, Apr 2012\nThe Functions of the Nuclear Envelope in Mediating the Molecular Crosstalk between the Nucleus and the Cytoplasm, Current Opinion in Cell Biology, Dec 2011\nThe role of nuclear lamin B1 in cell proliferation and senescence, Genes & Development, Dec 2011\nA progeria mutation reveals functions for lamin A in nuclear assembly, architecture, and chromosome organization, PNAS, Dec 2009\nThe A- and B-type nuclear lamin networks: Microdomains involved in chromatin organization and transcription, Genes & Development, Jan 2009\nLive cell imaging and electron microscopy reveal dynamic processes of BAF-directed nuclear envelope assembly, Journal of Cell Science, Aug 2008\nThe highly conserved nuclear lamin Ig-fold binds to PCNA: its role in DNA replication, Journal of Cell Biology, Apr 2008\nNuclear lamins: major factors in the structural organization and function of the nucleus and chromatin, Genes & Development, Apr 2008\nAlterations in mitosis and cell cycle progression caused by a mutant lamin A known to accelerate human aging, PNAS, Mar 2007\nDynamic interaction between BAF and emerin revealed by FRAP, FLIP, and FRET analyses in living HeLa cells, Journal of Structural Biology, Aug 2004"
+  },
+  {
+    "objectID": "works.html#Awords",
+    "href": "works.html#Awords",
+    "title": "Works",
+    "section": "Awords",
+    "text": "受賞歴・奨学金など\nAwords/Scholarship\n川瀬雅貴\nMasaki Kawase\n第96回Best Papers (BP)賞\nBest Paper Award 2024\n細胞核の力学的特性はヘテロクロマチン構造によって強化される\n日本遺伝学会\nThe Genetic Society of Japan\nNov, 2024\n河野洋平\nYohei Kono\n若手優秀発表賞\nYoung Scientist Award for Presentation 2022\n核質のラミンCによる迅速な核膜修復機構の解明\nNucleoplasmic Lamin C Rapidly Accumulates at Sites of Nuclear Envelope Rupture\n日本細胞生物学会\nJapan Society for Cell Biology\nJun, 2022\n河野洋平\nYohei Kono\n基礎研究機構\n専門基礎研究塾細胞科学分野(大隅塾)\nSpecialized Academy for Cell Science (Ohsumi-juku) of Tokyo Tech OFR\n塾生 Scholarship\nApr, 2020 - Mar, 2023"
+  },
+  {
+    "objectID": "works.html#Grants",
+    "href": "works.html#Grants",
+    "title": "Works",
+    "section": "Grants",
+    "text": "研究費・研究助成\nGrants/Funding\n胡桃坂仁志\n藤芳暁\n山口潤一郎\n志見剛\n核内環境による生命力維持機構の解明\nUnraveling the mechanisms of vital force sustenance regulated by the nuclear environment\n戦略的な研究開発の推進 戦略的創造研究推進事業\nCREST Strategic Basic Research Programs, Core Research for Evolutional Science and Technology (CREST)\n科学技術振興機構\nFunder: Japan Science and Technology Agency (JST)\nOct, 2024 - Mar, 2030\n(JPMJCR24T3)\n志見剛\n核ラミナとヘテロクロマチンの構造が相互依存する分子メカニズムの解明\nElucidation of molecular mechanisms for the relationship of mutual dependence between the nuclear lamina and heterochromatin\n科学研究費助成事業\n基盤研究(C)\nGrant-in-Aid for Scientific Research (C)\n日本学術振興会\nFunder: Japan Society for the Promotion of Science (JSPS)\nApr, 2024 - Mar, 2027\n(JP24K09434)\n藤芳暁\n工藤史貴\n志見剛\n細胞核形成における分子機構についての研究\n科学研究費助成事業\n基盤研究(B)\nGrant-in-Aid for Scientific Research (B)\n日本学術振興会\nFunder: Japan Society for the Promotion of Science (JSPS)\nApr, 2021 - Mar, 2025\n(JP21H01876)\n志見剛\n河野洋平\n木村宏\n細胞シート工学を用いたラミノパチー疾患モデル構築と核ラミナ修復機構の解明\nConstruction of a laminopathy disease model using cell sheet engineering and elucidation of the nuclear lamina repair mechanism\n科学研究費助成事業\n国際共同研究加速基金(国際共同研究強化(B))\nFund for the Promotion of Joint International Research (Fostering Joint International Research (B))\n日本学術振興会\nFunder: Japan Society for the Promotion of Science (JSPS)\nOct, 2020 - Mar, 2025\n(JP20KK0158)\n志見剛\n核ラミナが核膜孔複合体の構築を制御する分子メカニズムの解明\nElucidation of molecular mechanisms for reassembling the nuclear lamina and NPCs\n科学研究費助成事業\n基盤研究(C)\nGrant-in-Aid for Scientific Research (C)\n日本学術振興会\nFunder: Japan Society for the Promotion of Science (JSPS)\nApr, 2020 - Mar, 2023\n(JP20K06617)\n志見剛\n核ラミナが核膜孔の分布を制御する分子メカニズムの解明\nStructural study of the association between the nuclear lamina and nuclear pore complexes\n科学研究費助成事業\n研究活動スタート支援\nGrants-in-Aid for Scientific Research, Grant-in-Aid for Research Activity Start-up\n日本学術振興会\nFunder: Japan Society for the Promotion of Science (JSPS)\nApr, 2019 - Mar, 2021\n(JP19K21178)"
+  },
+  {
+    "objectID": "works.html#Society",
+    "href": "works.html#Society",
+    "title": "Works",
+    "section": "Society",
+    "text": "学会・研究会\nAcademic Society\n日本分子生物学会\nThe Molecular Biology Society of Japan\n日本細胞生物学会\nJapan Society for Cell Biology\n日本生化学会\nThe Japanese Biochemical Society\n日本生理学会\nThe Physiological Society of Japan\n日本再生医療学会（河野）\nThe Japanese Society for Regenerative Medicine\n日本遺伝学会（川瀬）\nThe Genetics Society of Japan\n染色体ワークショップ・核ダイナミクス研究会\nThe Chromosome Workshop and the Nuclear Dynamics Meeting"
+  },
+  {
+    "objectID": "access.html#Adress",
+    "href": "access.html#Adress",
+    "title": "Access",
+    "section": "Adress",
+    "text": "アクセス\nAccess\n所在地\nAdress\n〒920-1192\n石川県金沢市角間町\n金沢大学\nナノ生命科学研究所306号\n志見研究室\nTEL: 076-234-4540\nShimi Lab, 306 NanoLSI, Kanazawa University\nKakuma-machi, Kanazawa, 920-1192 JAPAN\n+81(0)76-234-4540\nE-mail: t-shimi[at]staff.kanazawa-u.ac.jp"
+  },
+  {
+    "objectID": "access.html#Adress",
+    "href": "access.html#Adress",
+    "title": "Access",
+    "section": "Adress",
+    "text": "地図\nMap"
+  },
+]

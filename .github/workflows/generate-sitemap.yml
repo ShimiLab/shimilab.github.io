@@ -1,25 +1,32 @@
-name: Generate Sitemap
+name: Generate sitemap
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  build:
+  sitemap_job:
     runs-on: ubuntu-latest
+    name: Generate a sitemap
+
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Generate sitemap
-        uses: cicirello/generate-sitemap@v1
-        with:
-          sitemap-path: sitemap.xml
-      - name: Commit and push sitemap
-        run: |
+    - name: Checkout the repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Generate the sitemap
+      id: generate
+      uses: cicirello/generate-sitemap@v1
+      with:
+        base-url-path: https://shimilab.github.io/
+
+    - name: Commit and push sitemap
+      run: |
+        if [[ -f sitemap.xml ]]; then
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add sitemap.xml
-          git commit -m 'Add sitemap.xml'
+          git commit -m "Add sitemap.xml"
           git push
+        fi

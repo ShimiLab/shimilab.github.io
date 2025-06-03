@@ -31,6 +31,11 @@ ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 }
+
+    body {
+      -webkit-touch-callout: none; /* Chrome,iOS Safari 長押し防止 */
+    }
+
 </style>
 
 
@@ -4721,6 +4726,12 @@ vertical-align: -.125em;
 
 
 <style type="text/css">.profile-box {background-color: #f9f9f9;border-left: 5px solid #007bff;padding: 1em;margin-bottom: 2em;border-radius: 8px;box-shadow: 0 2px 6px rgba(0,0,0,0.1);}.profile-box p {margin: 0.3em 0;font-size: 1rem;}</style>
+
+<!--画像をクリックしたら、拡大画像がポップアップで表示される方法-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" defer type="text/javascript"></script>
+
 </head>
 
 <body class="nav-fixed">
@@ -4763,10 +4774,10 @@ vertical-align: -.125em;
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-   <a href="https://github.com/ShimiLab/" title class="quarto-navigation-tool px-1" aria-label><i class="bi bi-github"></i></a>
-   <a href="https://scholar.google.com/citations?user=aVpGIK8AAAAJ" title class="quarto-navigation-tool px-1" aria-label><i class="bi bi-google"></i></a>
-   <a href="https://www.linkedin.com/in/takeshi-shimi-93197b1ab/" title class="quarto-navigation-tool px-1" aria-label><i class="bi bi-linkedin"></i></a>
-   <a href="https://x.com/Yo_Hey_Kono" title class="quarto-navigation-tool px-1" aria-label><i class="bi bi-twitter-x"></i></a>
+   <a href="https://github.com/ShimiLab/" title class="quarto-navigation-tool px-1" aria-label alt="NEW" target="_blak"　rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+   <a href="https://scholar.google.com/citations?user=aVpGIK8AAAAJ" title class="quarto-navigation-tool px-1" aria-label alt="NEW" target="_blak"　rel="noopener noreferrer"><i class="bi bi-google"></i></a>
+   <a href="https://www.linkedin.com/in/takeshi-shimi-93197b1ab/" title class="quarto-navigation-tool px-1" aria-label alt="NEW" target="_blak"　rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+   <a href="https://x.com/Yo_Hey_Kono" title class="quarto-navigation-tool px-1" aria-label alt="NEW" target="_blak"　rel="noopener noreferrer"><i class="bi bi-twitter-x"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -4800,7 +4811,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Update</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025/5/28</p>
+      <p class="date">2025/06/03</p>
     </div>
   </div>
   
@@ -4824,7 +4835,7 @@ at Nano Life Science Institute, Kanazawa University
 <div style="font-size: 28px;">
 <!-- for Cellular and Genetic Engineering -->
 </div>
-<p><aside id="mainimg"><img src="./images/2024-04-12 18.02.12-1.jpg" alt="mainimg.jpg" style="width: 50%"></aside></p>
+<p><aside id="mainimg"><a href="./images/2024-04-12 18.02.12-1.jpg" data-lightbox="index"><img src="./images/2024-04-12 18.02.12-1.jpg" alt="mainimg.jpg" style="width: 50%" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;" /></a></aside></p>
 
 </div>
 <p>
@@ -4836,8 +4847,8 @@ at Nano Life Science Institute, Kanazawa University
 <ul>
 <li>細胞核の構造と機能　蛍光顕微鏡　細胞生物学<br>
 Nuclear structure and functions, Fluorescence Microscopy, Cell Biology</li>
-<li><a href="https://researchmap.jp/shimi">researchmap</a></li>
-<li><a href="https://scholar.google.com/citations?user=aVpGIK8AAAAJ">Google Scholar</a></li>
+<li><a href="https://researchmap.jp/shimi" alt="NEW" target="_blak"　rel="noopener noreferrer">researchmap</a></li>
+<li><a href="https://scholar.google.com/citations?user=aVpGIK8AAAAJ" alt="NEW" target="_blak"　rel="noopener noreferrer">Google Scholar</a></li>
 </ul>
 <p></p>
 <p>
@@ -4847,15 +4858,15 @@ Nuclear structure and functions, Fluorescence Microscopy, Cell Biology</li>
 <p><aside id="lamina">
 
 <table><tr><td>
-<img src="./images/Composite10.png" alt="Composite10.png" style="max-width: 100%; height: auto;">
+<a href="./images/Composite10.png" data-lightbox="index"><img src="./images/Composite10.png" alt="Composite10.png" style="max-width: 100%; height: auto;" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;" /></a>
 </td><td>
-<img src="./images/Composite9.png" alt="Composite9.png" style="max-width: 100%; height: auto;"></td></tr></table>
+<a href="./images/Composite9.png" data-lightbox="index"><img src="./images/Composite9.png" alt="Composite9.png" style="max-width: 100%; height: auto;" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;" /></a></td></tr></table>
 A STED superresolution image of nuclear surface view showing the nuclear lamin A/C meshwork (green) and the NPCs (NUP96-Halo, magenta).<br>
 (Abberior STED microscope, UPlanSApo 100x/1.4 NA Oil lens, anti-LA/C mAb:clone#3A6-4C11, JF646-HaloTag Ligand in U2OS-CRISPR-Nup96-Halo cells)
 <br>
 
 <table><tr><td>
-<img src="https://www.tandfonline.com/cms/asset/ac4ba4c0-686e-4bea-8e12-0ead46848103/kncl20.v016.i01.cover.jpg" alt="Cover image for Nucleus">
+<a href="https://www.tandfonline.com/cms/asset/ac4ba4c0-686e-4bea-8e12-0ead46848103/kncl20.v016.i01.cover.jpg" data-lightbox="index"><img src="https://www.tandfonline.com/cms/asset/ac4ba4c0-686e-4bea-8e12-0ead46848103/kncl20.v016.i01.cover.jpg" alt="Cover image for Nucleus" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;" /></a>
 </td><td>
 国際学術誌<b><i>Nucleus</i></b>の新しい表紙画像に選ばれました。<br>
 Our image is chosen for the new cover of <b><i>Nucleus</i></b> (eISSN: 1949-1042).
@@ -5323,6 +5334,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Lightboxの画像が表示されるたびにイベントを設定
+    $(document).on('contextmenu', '.lightboxOverlay, .lightbox', function (e) {
+      e.preventDefault();
+    });
+  });
+</script>
 
 
 

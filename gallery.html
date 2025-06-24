@@ -4827,8 +4827,23 @@ vertical-align: -.125em;
   </div>
   
 
+  <button onclick="translatePage()">Google Translate (English)</button>
+
+  <script>
+    function translatePage() {
+      const currentUrl = window.location.href;
+      const targetLang = 'en'; // 他に 'zh-CN', 'ko', 'fr' なども可能
+      const translatedUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=ja&tl=${targetLang}&u=${encodeURIComponent(currentUrl)}`;
+      window.location.href = translatedUrl;
+    }
+  </script>
+
 
 </header>
+
+
+
+
 <section id="Gallery" class="level2">
 <h2 class="anchored" data-anchor-id="Gallery">フォトギャラリー，研究室行事　Gallery, Lab Events</h2>
 <section id="2025" class="level3">

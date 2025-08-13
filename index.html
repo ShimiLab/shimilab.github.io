@@ -5342,9 +5342,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
 </script>
 
+
 <style>
 /* オーバーレイ全体 */
-#eventOverlay {
+.eventOverlay {
   display: none;
   position: fixed;
   top: 0; left: 0;
@@ -5359,7 +5360,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 }
 
 /* 画像コンテナ */
-#eventOverlayContent {
+.eventOverlayContent {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -5369,7 +5370,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 }
 
 /* 画像のサイズ制限 */
-#eventOverlayContent img {
+.eventOverlayContent img {
   max-width: 100%;
   max-height: 100vh; /* 画面高さいっぱいまで */
   height: auto;
@@ -5379,7 +5380,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 }
 
 /* 閉じるボタン */
-#eventOverlayClose {
+.eventOverlayClose {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -5393,31 +5394,89 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 }
 </style>
 
-
-<!-- ポスター右下固定表示 -->
+<!-- オーバーレイ1 -->
 <!--
-<div id="event-poster">
-  <img src="./images/Flyer_Luncheon Meeting on April 252024.jpg" alt="Event Poster">
-  <button id="close-poster">&times;</button>
+<div class="eventOverlay" style="display:flex;">
+  <div class="eventOverlayContent">
+    <span class="eventOverlayClose">X</span>
+    <img src="./images/Flyer_Luncheon Meeting on April 252024.jpg" alt="Event Poster 1">
+  </div>
+</div>
+-->
+
+<!-- オーバーレイ2 -->
+<!--
+<div class="eventOverlay" style="display:flex;">
+  <div class="eventOverlayContent">
+    <span class="eventOverlayClose">X</span>
+    <img src="./images/event_589377.png" alt="Event Poster 2">
+  </div>
+</div>
+-->
+
+<script>
+window.addEventListener('load', function() {
+  // すべてのオーバーレイを表示
+  document.querySelectorAll('.eventOverlay').forEach(function(overlay){
+    overlay.style.display = 'flex';
+  });
+
+  // すべての閉じるボタンにクリックイベントを追加
+  document.querySelectorAll('.eventOverlayClose').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      this.closest('.eventOverlay').style.display = 'none';
+    });
+  });
+
+  // オーバーレイの背景クリックでも閉じる
+  document.querySelectorAll('.eventOverlay').forEach(function(overlay){
+    overlay.addEventListener('click', function(e){
+      if(e.target === this){
+        this.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+
+
+<!-- 右下固定ポスターのコンテナ -->
+<div id="fixedPosterContainer" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: flex; flex-direction: column; gap: 10px;">
+  
+  <!-- ポスター1 -->
+<!--
+  <div class="fixedPoster">
+    <img src="./images/Flyer_Luncheon Meeting on April 252024.jpg" alt="Event Poster 1">
+    <button class="closeFixedPoster">&times;</button>
+  </div>
+-->
+
+  <!-- ポスター2 -->
+<!--
+  <div class="fixedPoster">
+    <img src="./images/event_589377.png" alt="Event Poster 2">
+    <button class="closeFixedPoster">&times;</button>
+  </div>
+-->
+
 </div>
 
 <style>
-#event-poster {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
+.fixedPoster {
   background: white;
   border: 2px solid #ccc;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   padding: 5px;
+  position: relative;
 }
-#event-poster img {
-  max-width: 270px;  /* ポスターサイズ */
+
+.fixedPoster img {
+  max-width: 270px;
   height: auto;
   display: block;
 }
-#event-poster button {
+
+.fixedPoster button {
   position: absolute;
   top: 2px;
   right: 5px;
@@ -5430,40 +5489,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </style>
 
 <script>
-document.getElementById('close-poster').addEventListener('click', function() {
-  document.getElementById('event-poster').style.display = 'none';
+// 閉じるボタン処理（複数対応）
+document.querySelectorAll('.closeFixedPoster').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    this.closest('.fixedPoster').style.display = 'none';
+  });
 });
 </script>
--->
 
-
-<!-- ポスターオーバーレイ -->
-<!--
-<div id="eventOverlay">
-  <div id="eventOverlayContent">
-    <span id="eventOverlayClose">X</span>
-    <img src="images/Flyer_Luncheon Meeting on April 252024.jpg" alt="Event Poster">
-  </div>
-</div>
-
-<script>
-// ページ読み込み後にオーバーレイ表示
-window.addEventListener('load', function() {
-  document.getElementById('eventOverlay').style.display = 'block';
-});
-
-// 閉じるボタン処理
-document.getElementById('eventOverlayClose').addEventListener('click', function() {
-  document.getElementById('eventOverlay').style.display = 'none';
-});
-
-// オーバーレイ背景クリックでも閉じる
-document.getElementById('eventOverlay').addEventListener('click', function(e) {
-  if (e.target === this) {
-    this.style.display = 'none';
-  }
-});
-</script>
--->
 
 </body></html>

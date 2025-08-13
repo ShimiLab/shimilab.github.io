@@ -4720,6 +4720,11 @@ vertical-align: -.125em;
 <style type="text/css">.profile-box {background-color: #f9f9f9;border-left: 5px solid #007bff;padding: 1em;margin-bottom: 2em;border-radius: 8px;box-shadow: 0 2px 6px rgba(0,0,0,0.1);}.profile-box p {margin: 0.3em 0;font-size: 1rem;}</style>
 </head>
 
+<!--画像をクリックしたら、拡大画像がポップアップで表示される方法-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" defer type="text/javascript"></script>
+
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
@@ -4860,16 +4865,16 @@ vertical-align: -.125em;
 <span style="margin-left: 1.5em;">The fare is 380 yen and can be paid with a credit card via Contactless Payment.</li>
 <div class="row text-center">
   <div class="col-3">
-    <a href="https://www.hokutetsu.co.jp/assets/img/sub/20250327_touch_howto_1.jpg" data-lightbox="bus" target="_blak" rel="noopener noreferrer"><img src="./images/20250327_touch_howto_1.jpg" class="img-fluid" alt="touch_howto_1"></a>
+    <a href="https://www.hokutetsu.co.jp/assets/img/sub/20250327_touch_howto_1.jpg" data-lightbox="bus"><img src="./images/20250327_touch_howto_1.jpg" class="img-fluid" alt="touch_howto_1"></a>
   </div>
   <div class="col-4">
-    <a href="https://www.hokutetsu.co.jp/assets/img/sub/20250327_touch_howto_2.jpg" data-lightbox="bus" target="_blak" rel="noopener noreferrer"><img src="./images/20250327_touch_howto_2.jpg" class="img-fluid" alt="touch_howto_2"></a>
+    <a href="https://www.hokutetsu.co.jp/assets/img/sub/20250327_touch_howto_2.jpg" data-lightbox="bus"><img src="./images/20250327_touch_howto_2.jpg" class="img-fluid" alt="touch_howto_2"></a>
   </div>
   <div class="col-5">
-    <img src="./images/master追加-1536x774.png" class="img-fluid" alt="Universal_Contactless_Card_Symbol">
+    <a href="./images/master追加-1536x774.png" data-lightbox="bus"><img src="./images/master追加-1536x774.png" class="img-fluid" alt="Universal_Contactless_Card_Symbol"></a>
   </div>
 </div>
-<p><small>Copyright HOKURIKU RAILROAD Co.,Ltd.</small></p>
+<p><small>Copyright&copy; HOKURIKU RAILROAD Co.,Ltd.</small></p>
 </section>
 
 </section>
@@ -5299,6 +5304,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Lightboxの画像が表示されるたびにイベントを設定
+    $(document).on('contextmenu', '.lightboxOverlay, .lightbox', function (e) {
+      e.preventDefault();
+    });
+  });
+</script>
 
 
 

@@ -20,6 +20,7 @@
 
 
 <title>Shimi Lab at Kanazawa University</title>
+
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +36,94 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
     body {
       -webkit-touch-callout: none; /* Chrome,iOS Safari 長押し防止 */
     }
+
+/* オーバーレイの基本スタイル */
+.eventOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  display: none; /* 最初は非表示 */
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  overflow: auto; /* 画像が大きいときにスクロール可能に */
+}
+
+.eventOverlayContent {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.eventOverlayContent img {
+  width: 100%;
+  height: auto;
+  max-height: 90vh; /* 画面高さを超えないように */
+  border-radius: 8px;
+}
+
+/* 閉じるボタン */
+.eventOverlayClose {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* 右下固定ポスター */
+#fixedPosterContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fixedPoster {
+  position: relative;
+  max-width: 240px;   /* PC用 */
+}
+
+.fixedPoster img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.closeFixedPoster {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: rgba(255,255,255,0.8);
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0 5px;
+}
+
+/* ポスタースマホ対応 */
+@media (max-width: 600px) {
+  .fixedPoster {
+    max-width: 120px; /* スマホでは小さめ */
+  }
+  #fixedPosterContainer {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
 
 </style>
 
@@ -5445,7 +5534,7 @@ window.addEventListener('load', function() {
   <!-- ポスター2 -->
 
   <div class="fixedPoster">
-    <img src="./images/HT-X1セミナー用ポスター.JPG" alt="Event Poster 2">
+    <a href="./images/HT-X1セミナー用ポスター.JPG" data-lightbox="posters"><img src="./images/HT-X1セミナー用ポスター.JPG" alt="Event Poster 2"></a>
     <button class="closeFixedPoster">&times;</button>
   </div>
 
@@ -5453,7 +5542,7 @@ window.addEventListener('load', function() {
   <!-- ポスター1 -->
 
   <div class="fixedPoster">
-    <img src="./images/Tomocube_HT-X1オンサイトデモ用ポスター.jpg" alt="Event Poster 1">
+    <a href="./images/Tomocube_HT-X1オンサイトデモ用ポスター.jpg" data-lightbox="posters"><img src="./images/Tomocube_HT-X1オンサイトデモ用ポスター.jpg" alt="Event Poster 1"></a>
     <button class="closeFixedPoster">&times;</button>
   </div>
 
